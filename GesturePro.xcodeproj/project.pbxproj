@@ -15,6 +15,7 @@
 		33B2E0321F4EB2CB00B26FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B2E0301F4EB2CB00B26FC3 /* LaunchScreen.storyboard */; };
 		33B2E03D1F4EB2CB00B26FC3 /* GestureProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B2E03C1F4EB2CB00B26FC3 /* GestureProTests.m */; };
 		33B2E0481F4EB2CB00B26FC3 /* GestureProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B2E0471F4EB2CB00B26FC3 /* GestureProUITests.m */; };
+		33B2E0571F4EB47300B26FC3 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B2E0561F4EB47300B26FC3 /* UIView+YYAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		33B2E0431F4EB2CB00B26FC3 /* GestureProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B2E0471F4EB2CB00B26FC3 /* GestureProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureProUITests.m; sourceTree = "<group>"; };
 		33B2E0491F4EB2CB00B26FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B2E0551F4EB47300B26FC3 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		33B2E0561F4EB47300B26FC3 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		33B2E0211F4EB2CB00B26FC3 /* GesturePro */ = {
 			isa = PBXGroup;
 			children = (
+				33B2E0551F4EB47300B26FC3 /* UIView+YYAdd.h */,
+				33B2E0561F4EB47300B26FC3 /* UIView+YYAdd.m */,
 				33B2E0251F4EB2CB00B26FC3 /* AppDelegate.h */,
 				33B2E0261F4EB2CB00B26FC3 /* AppDelegate.m */,
 				33B2E0281F4EB2CB00B26FC3 /* ViewController.h */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B2E0571F4EB47300B26FC3 /* UIView+YYAdd.m in Sources */,
 				33B2E02A1F4EB2CB00B26FC3 /* ViewController.m in Sources */,
 				33B2E0271F4EB2CB00B26FC3 /* AppDelegate.m in Sources */,
 				33B2E0241F4EB2CB00B26FC3 /* main.m in Sources */,
